@@ -1,0 +1,231 @@
+/*Whole layout of profile page*/
+.Profile {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Profile_Container {
+  margin-top: 0.3rem;
+}
+.Profile_Main {
+  height: 90vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border: none;
+}
+
+/*Left Side of Profile Page*/
+.ProfileLeft {
+  width: 30vw;
+  height: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  animation: slideRight 0.8s forwards;
+  animation-delay: 0.3s;
+  opacity: 0;
+}
+
+.ProfileLeft img {
+  height: auto;
+  width: 200px;
+  margin-top: 0.5rem;
+  align-items: center;
+  border-radius: 50px;
+  align-self: center;
+}
+.work_line,
+.tech_bio {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  width: 100%;
+  text-align: left;
+  margin-top: 1rem;
+}
+.tech_bio:after,
+.work_line:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid rgba(220, 224, 224, 1);
+  margin: 0rem 1rem;
+}
+.profile_detail_info,
+.ProfileLeft_techBio {
+  padding: 0.5rem;
+}
+.edit_icon {
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.edit_icon_i {
+  cursor: pointer;
+  display: flex;
+}
+.ProfileLeft_userInfo {
+  margin-top: 1.5rem;
+}
+.ProfileLeft_name {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ProfileLeft_jobTitle {
+  font-size: 12px;
+  margin-top: 0.5rem;
+  color: #545454;
+}
+.ProfileLeft_industry,
+.ProfileLeft_companySize,
+.ProfileLeft_location {
+  font-size: 12px;
+  color: #545454;
+  margin-top: 0.1rem;
+}
+
+.ProfileLeft_industry span,
+.ProfileLeft_companySize span,
+.ProfileLeft_location span,
+.ProfileLeft_jobTitle span {
+  font-weight: 500;
+}
+
+.ProfileLeft_techBio_Detail {
+  font-size: 12px;
+  color: #545454;
+  line-height: 1.6;
+}
+
+/*Right Side of Profile Page*/
+.ProfileRight {
+  width: 70vw;
+  height: 100%;
+  padding: 3rem;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ProfileRight_section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 45%;
+}
+.ProfileRight_cloud,
+.ProfileRight_tools {
+  background-color: white;
+  width: 47%;
+  border-radius: 10px;
+  padding: 1.5rem 2rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  animation: fadeUptoDown 0.8s forwards;
+  animation-delay: 0.3s;
+  opacity: 0;
+}
+.ProfileRight_product:hover,
+.ProfileRight_cloud:hover,
+.ProfileRight_tools:hover {
+  box-shadow: rgba(84, 88, 92, 0.2) 0px 8px 24px;
+}
+
+.ProfileRight_product {
+  border: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  height: 45%;
+  background-color: white;
+  border-radius: 10px;
+  animation: fadeDowntoUp 0.8s forwards;
+  animation-delay: 0.3s;
+  opacity: 0;
+}
+
+.filler_aws {
+  background: #00a0ff;
+  height: 100%;
+  height: 10px;
+  border: none;
+  border-radius: 5px;
+  transition: width 0.2s ease-in;
+}
+
+.filler_google {
+  background: #00a0ff;
+  height: 100%;
+  height: 10px;
+  border: none;
+  border-radius: 5px;
+  transition: width 0.2s ease-in;
+}
+
+.filler_azure {
+  background: #00a0ff;
+  height: 100%;
+  height: 10px;
+  border: none;
+  border-radius: 5px;
+  transition: width 0.2s ease-in;
+}
+
+.ProfileRight_cloud_title {
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 1.3rem;
+}
+
+.cloud_item {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.cloud_item img {
+  height: 30px;
+  width: auto;
+  margin-right: 1rem;
+}
+
+.cloud-item-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.cloud_item p {
+  margin-right: 1.5rem;
+  font-size: 12px;
+}
+@keyframes fadeUptoDown {
+  0% {
+    transform: translateY(-4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeDowntoUp {
+  0% {
+    transform: translateY(4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes slideRight {
+  0% {
+    transform: translateX(-4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

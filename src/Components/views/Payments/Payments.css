@@ -1,0 +1,132 @@
+/* The Left side of Description Title page */
+.Payments_Left_Container {
+  margin: auto;
+  height: 95%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  animation: fadeDown 0.8s forwards;
+  animation-delay: 0.3s;
+  opacity: 0;
+}
+.Payments_Left_Title {
+  font-size: 18px;
+  margin-bottom: 1.5rem;
+}
+
+.Payments_Left_SubTitle {
+  font-size: 12px;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.Payments_Left_Mainarea {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 1.5rem;
+  width: 90%;
+}
+
+.Payments_Left_Mainarea input,
+.donate_charity {
+  background-color: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+  outline: none;
+  font-size: 12px;
+  padding: 0.8rem 0.5rem;
+}
+
+.Payments_Left_Mainarea input {
+  margin-bottom: 1rem;
+}
+.Payments_socialmedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.payout_paypal,
+.amazon_giftcard {
+  background-color: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+  padding: 0.8rem 0.5rem;
+  outline: none;
+  width: 48%;
+  font-size: 12px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.payout_paypal:hover {
+  background-color: #3b7bbf;
+  color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.amazon_giftcard:hover {
+  background-color: #ff9900;
+  color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.donate_charity:hover {
+  background-color: #636363;
+  color: white;
+
+  cursor: pointer;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.Payments_socialmediaicon {
+  margin-right: 0.5rem;
+}
+.Payments_Left_infoarea {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: 1rem;
+}
+.Payments_para {
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgba(0, 160, 255, 1);
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+.Payments_para:hover {
+  text-decoration: underline;
+}
+@media only screen and (min-width: 1370px) {
+  .Payments_Left_Container {
+    width: 60%;
+  }
+  .Payments_Left_Title {
+    padding-top: 50px;
+  }
+  .Payments_Left_SubTitle {
+    font-size: 13px;
+  }
+  .Payments_Left_Mainarea {
+    margin: 1.5rem 0rem 3rem 0rem;
+  }
+  .Payments_para {
+    margin-bottom: 0.9rem;
+    font-size: 13px;
+  }
+}
+@keyframes fadeDown {
+  0% {
+    transform: translateY(4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

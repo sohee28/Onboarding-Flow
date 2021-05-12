@@ -1,0 +1,381 @@
+.Signup_page {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f6f8f9;
+}
+.Signup_page_container {
+  padding: 1rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Signup_page_subcontainer {
+  height: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.having_trouble span {
+  color: #00a0ff;
+  cursor: pointer;
+}
+
+.Signup_Subtitle span {
+  color: #00a0ff;
+  cursor: pointer;
+}
+
+.having_trouble {
+  font-size: 12px;
+  color: #75828a;
+  align-self: flex-end;
+}
+
+.Signup_page_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 470px;
+  width: 450px;
+  align-items: center;
+}
+.Signup_page_Mainarea {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  border: none;
+  box-shadow: 0px 3px 4px rgba(15, 28, 36, 0.06);
+  border-radius: 12px;
+  width: 450px;
+  height: 432px;
+  padding: 3rem;
+}
+
+.Signup_page_TitleArea {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.Signup_page_socialmedia {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  margin-bottom: 0.4rem;
+}
+.Signup_page_email {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.Signup_Title {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 1rem 0rem;
+}
+
+.or {
+  margin: 1rem 0rem;
+}
+.or_w {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+  height: 100%;
+  width: 100%;
+  color: #75828a;
+}
+
+.or_w:before,
+.or_w:after {
+  content: "";
+  flex: 1 1;
+  border: 1px solid #e4e6e7;
+  margin: auto;
+}
+.Signup_Subtitle {
+  color: #545e63;
+  font-size: 11px;
+}
+
+.Signup_Subtitle span {
+  color: #00a0ff;
+  cursor: pointer;
+}
+
+.linkedin_signup {
+  background-color: #0077b5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  border-radius: 8px;
+  justify-content: flex-start;
+  align-items: center;
+
+  border: none;
+  font-size: 12px;
+  padding: 0.6rem 0rem;
+  color: white;
+}
+
+.google_signup {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  border: 1px solid #e4e6e7;
+  font-size: 12px;
+  padding: 0.6rem 0rem;
+}
+
+.Signup_page_socialmedia p {
+  font-size: 12px;
+}
+
+.Signup_page_socialmedia img {
+  height: 25px;
+  width: auto;
+  margin-left: 20px;
+  margin-right: 105px;
+}
+
+.Signup_page_email input {
+  border: none;
+  border-bottom: 1px solid #e4e6e7;
+  padding: 1rem;
+  width: 100%;
+  outline: none;
+}
+
+.email_signup {
+  width: 100%;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  border: none;
+  font-size: 12px;
+  padding: 0.7rem 0rem;
+  color: white;
+  background-color: #00a0ff;
+}
+
+.term_and_conditions {
+  font-size: 1px;
+  width: 25%;
+  text-align: center;
+  line-height: 1.4;
+  margin-top: 1rem;
+}
+
+.term_and_conditions span {
+  color: #00a0ff;
+}
+.Signup_page {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f6f8f9;
+}
+.Signup_page_container {
+  padding: 1rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Signup_page_subcontainer {
+  height: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.having_trouble span {
+  color: #00a0ff;
+  cursor: pointer;
+}
+
+.Signup_Subtitle span {
+  color: #00a0ff;
+  cursor: pointer;
+}
+
+.having_trouble {
+  font-size: 12px;
+  color: #75828a;
+  align-self: flex-end;
+}
+
+.Signup_page_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+.Signup_page_Mainarea {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  border: none;
+  box-shadow: 0px 3px 4px rgba(15, 28, 36, 0.06);
+  border-radius: 12px;
+  width: 450px;
+  height: 432px;
+  padding: 2.5rem;
+}
+
+.Signup_page_TitleArea {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.Signup_page_socialmedia {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  margin-bottom: 0.4rem;
+}
+.Signup_page_email {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.Signup_Title {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 1rem 0rem;
+}
+
+.or {
+  margin: 1rem 0rem;
+}
+.or_w {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+  height: 100%;
+  width: 100%;
+  color: #75828a;
+}
+
+.or_w:before,
+.or_w:after {
+  content: "";
+  flex: 1 1;
+  border: 1px solid #e4e6e7;
+  margin: auto;
+}
+.Signup_Subtitle {
+  color: #545e63;
+  font-size: 11px;
+}
+
+.Signup_Subtitle span {
+  color: #00a0ff;
+  cursor: pointer;
+}
+
+.linkedin_signup {
+  background-color: #0077b5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  border-radius: 8px;
+  justify-content: flex-start;
+  align-items: center;
+
+  border: none;
+  font-size: 12px;
+  padding: 0.6rem 0rem;
+  color: white;
+  cursor: pointer;
+}
+
+.google_signup {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  border: 1px solid #e4e6e7;
+  font-size: 12px;
+  padding: 0.6rem 0rem;
+  cursor: pointer;
+}
+
+.Signup_page_socialmedia p {
+  font-size: 12px;
+}
+
+.Signup_page_socialmedia img {
+  height: 23px;
+  width: auto;
+  margin-left: 20px;
+  margin-right: 105px;
+}
+
+.linkedin_signup:hover {
+  background-color: #00669c;
+}
+
+.google_signup:hover {
+  background-color: rgb(248, 248, 248);
+  border: 1px solid #bfc1c2;
+}
+
+.Signup_page_email input {
+  border: none;
+  border-bottom: 1px solid #e4e6e7;
+  padding: 1rem;
+  width: 100%;
+  outline: none;
+}
+.email_signup {
+  width: 100%;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  border: none;
+  font-size: 12px;
+  padding: 0.7rem 0rem;
+  color: white;
+  background-color: #00a0ff;
+  cursor: pointer;
+}
+
+.email_signup:hover {
+  background-color: #0084d1;
+}
+
+.term_and_conditions {
+  font-size: 10px;
+  width: 25%;
+  text-align: center;
+  line-height: 1.4;
+  margin-top: 1rem;
+}
+
+.term_and_conditions span {
+  color: #00a0ff;
+}

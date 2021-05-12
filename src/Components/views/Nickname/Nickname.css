@@ -1,0 +1,291 @@
+/* The Left side of Nickname page */
+.Nickname_Left_Container {
+  margin: auto;
+  height: 95%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  animation: fadeRight 0.8s forwards;
+  animation-delay: 0.3s;
+  opacity: 0;
+}
+
+.Nickname_Left_TitleArea {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.Nickname_Left_Title {
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+
+.Nickname_Left_SubTitle {
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.Nickname_Left_SubTitle span {
+  font-size: 11px;
+  color: rgba(0, 160, 255, 1);
+  margin-left: 0.5rem;
+}
+
+.Nickname_Left_MainArea {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: 100%;
+}
+
+.Nickname_Left_nickname {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.Nickname_Left_MainArea label {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+
+.Nickname_Left_MainArea input {
+  margin-right: 1rem;
+}
+
+.Nickname_Left_MainArea input[type="radio"] {
+  width: 17px;
+  height: 17px;
+}
+
+.Nickname_Left_Input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 2px solid rgba(176, 176, 176, 0.5);
+  outline: none;
+  width: 100%;
+}
+
+.Nickname_Left_chooseNick {
+  width: 93%;
+  align-self: flex-end;
+  margin-top: 1rem;
+  animation: fadesnick 0.8s forwards;
+  animation-delay: 0s;
+  opacity: 0;
+}
+
+.Nickname_Left_Hint {
+  font-size: 10px;
+  margin-top: 0.4rem;
+  color: #717171;
+}
+
+/* The Right side of Nickname page */
+.Nickname_Right_Container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  animation: fadeLeft 0.8s forwards;
+  animation-delay: 0.3s;
+  opacity: 0;
+}
+
+.Nickname_Right_Title {
+  font-size: 12px;
+  margin-bottom: 1rem;
+}
+
+.Nickname_preview {
+  border: 1px solid rgba(220, 224, 224, 1);
+  padding: 0rem 1.3rem;
+  height: auto;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Nickname_preview_1 {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  gap: 1rem;
+  padding: 0.5rem 0rem;
+}
+
+.Nickname_preview1_left img {
+  height: 78px;
+  width: auto;
+}
+
+.Nickname_preview1_right {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  gap: 0.4rem;
+}
+
+.Nickname_preview1_name {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(0, 140, 245, 1);
+  height: 100%;
+}
+
+.Nickname_preview1_jobtitle {
+  font-size: 10px;
+}
+
+.Nickname_preview1_companysize,
+.Nickname_preview1_location {
+  font-size: 9px;
+  color: #646465;
+  display: flex;
+  justify-content: center;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.Nickname_preview1_Detail {
+  font-size: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.Nickname_preview1_Detail img {
+  height: 12px;
+  width: auto;
+  margin-right: 0.2rem;
+}
+
+.Nickname_preview_2,
+.Nickname_preview_3 {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  gap: 0.3rem;
+  margin: 0.5rem 0rem;
+}
+
+.Nickname_preview2_colorline {
+  border: 4px solid rgba(196, 196, 196, 1);
+  background-color: rgba(196, 196, 196, 1);
+  border-radius: 50px;
+}
+
+.Nickname_preview3_colorline {
+  width: 23%;
+  border: 4px solid rgba(196, 196, 196, 1);
+  background-color: rgba(196, 196, 196, 1);
+  border-radius: 50px;
+}
+
+.Nickname_preview_4 {
+  display: grid;
+  grid-template-columns: 23% 23% 23%;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.Nickname_preview4_colorbox {
+  background-color: rgba(196, 196, 196, 0.5);
+  border-radius: 5px;
+  padding: 1.8rem 0rem;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1370px) {
+  .Nickname_Left_Container {
+    padding-top: 50px;
+  }
+  .Nickname_Left_SubTitle {
+    font-size: 13px;
+  }
+  .Nickname_Left_MainArea label {
+    font-size: 13px;
+  }
+  .Nickname_Left_Input {
+    padding: 0.8rem;
+  }
+  .Nickname_Left_Hint {
+    font-size: 11px;
+  }
+  .Nickname_Right_Title {
+    margin-top: 4rem;
+  }
+  .Nickname_preview {
+    height: auto;
+    width: 450px;
+  }
+  .Nickname_preview1_left img {
+    height: 100px;
+  }
+
+  .Nickname_preview1_name {
+    font-size: 13px;
+  }
+
+  .Nickname_preview1_jobtitle {
+    font-size: 11px;
+  }
+
+  .Nickname_preview1_companysize,
+  .Nickname_preview1_location {
+    font-size: 11px;
+  }
+
+  .Nickname_preview1_Detail img {
+    height: 14px;
+  }
+  .Nickname_preview_2,
+  .Nickname_preview_3 {
+    margin: 1rem 0rem;
+  }
+  .Nickname_preview4_colorbox {
+    padding: 2.5rem 0rem;
+  }
+}
+
+@keyframes fadesnick {
+  0% {
+    transform: translateY(-2rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeLeft {
+  0% {
+    transform: translateX(4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeRight {
+  0% {
+    transform: translateX(-4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

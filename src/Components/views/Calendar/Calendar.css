@@ -1,0 +1,69 @@
+/* The Left side of Calendar page */
+.Calendar_Left_Container {
+  margin: auto;
+  height: 95%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  animation: fadeDown 0.8s forwards;
+  animation-delay: 0.3s;
+  opacity: 0;
+}
+.Calendar_Left_Title {
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+
+.Calendar_Left_SubTitle {
+  font-size: 12px;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.Calendar_para {
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgba(0, 160, 255, 1);
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+.Calendar_para:hover {
+  text-decoration: underline;
+}
+
+.Calendar_Left_label {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.Calendar_Left_Container input[type="checkbox"] {
+  width: 17px;
+  height: 17px;
+  margin-right: 1rem;
+}
+
+.Calendar_Left_Container input:checked ~ .checkmark {
+  background-color: black;
+}
+@media only screen and (min-width: 1370px) {
+  .Calendar_Left_SubTitle,
+  .Calendar_Left_label,
+  .Calendar_para {
+    font-size: 13px;
+  }
+  .Calendar_Left_Title {
+    padding-top: 50px;
+  }
+}
+@keyframes fadeDown {
+  0% {
+    transform: translateY(4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,48 @@
+.Navbar {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 3px -2px;
+}
+
+.container {
+  margin: 1rem 2.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 35px;
+  width: auto;
+}
+
+.left_nav,
+.right_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 2rem;
+  align-items: center;
+}
+.right_nav_profile,
+.right_nav_contents,
+.right_nav_settings {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.right_nav_profile:hover,
+.right_nav_contents:hover,
+.right_nav_settings:hover {
+  color: rgb(1, 135, 212);
+}
+@media only screen and (min-width: 1370px) {
+  .Navbar {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 5vh;
+  }
+}

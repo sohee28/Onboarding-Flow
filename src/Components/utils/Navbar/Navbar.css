@@ -1,0 +1,50 @@
+.Navbar {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+}
+
+.container {
+  margin: 1rem 2.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 35px;
+  width: auto;
+}
+
+.left_nav,
+.right_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 2rem;
+  align-items: center;
+}
+
+.right_nav_saveexit {
+  color: rgba(0, 160, 255, 1);
+  font-size: 14px;
+  cursor: pointer;
+}
+.right_nav_saved {
+  color: #767676;
+  font-size: 14px;
+}
+
+.right_nav_saveexit:hover {
+  color: rgb(1, 135, 212);
+}
+
+@media only screen and (min-width: 1370px) {
+  .Navbar {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 5vh;
+  }
+}

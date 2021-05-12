@@ -1,0 +1,33 @@
+/*Whole Basic Layout*/
+.Whole_Layout_2 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Container_2 {
+  display: flex;
+  flex-direction: row;
+  height: 89vh;
+  overflow: hidden;
+}
+
+/* The Left side of Basic Layout */
+.Left_2 {
+  width: 55vw;
+  height: 100%;
+  padding: 3.5rem;
+}
+
+/* The Right side of Basic Layout */
+.Right_2 {
+  width: 45vw;
+  background-color: #fafafa;
+  padding: 2rem;
+}
+/* Window size for Desktop / Monitor*/
+@media only screen and (min-width: 1370px) {
+  .Container_2 {
+    height: 92vh;
+  }
+}

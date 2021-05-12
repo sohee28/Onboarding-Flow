@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Application Management",
+    "vendor": "Circle CI",
+    "id": "circleci",
+    "url": "/Images/circleci-icon.png"
+  },
+  {
+    "name": "Application Management",
+    "vendor": "Nagios XI",
+    "id": "nagiosxi",
+    "url": "/Images/nagios-xi.png"
+  },
+  {
+    "name": "Application Management",
+    "vendor": "LogicMonitor",
+    "id": "logicmonitor",
+    "url": "/Images/logicmonitor.png"
+  },
+  {
+    "name": "Application Management",
+    "vendor": "ntopng",
+    "id": "ntopng",
+    "url": "/Images/ntopng-logo.png"
+  },
+  {
+    "name": "Application Management",
+    "vendor": "SolarWinds ",
+    "id": "SolarWinds",
+    "url": "/Images/solarwind-icon.png"
+  },
+  {
+    "name": "Application Management",
+    "vendor": "Observium",
+    "id": "Observium",
+    "url": "/Images/observium=icon.png"
+  },
+  {
+    "name": "Application Management",
+    "vendor": "Zabbix",
+    "id": "Zabbix",
+    "url": "/Images/zabbix-icon.png"
+  },
+  {
+    "name": "Application Management",
+    "vendor": "Google Cloud Platform",
+    "id": "googlecloudplatform",
+    "url": "/Images/google-cloud-platform-icon.png"
+  },
+  {
+    "name": "Application Management",
+    "vendor": "Wireshark",
+    "id": "Wireshark",
+    "url": "/Images/wireshark-icon.png"
+  },
+  {
+    "name": "Application Management",
+    "vendor": "CloudFlare",
+    "id": "CloudFlare",
+    "url": "/Images/cloudflare-icon.png"
+  },
+  {
+    "name": "Application Management",
+    "vendor": "AWS",
+    "id": "AWS",
+    "url": "/Images/icons-aws.png"
+  },
+  {
+    "name": "Application Management",
+    "vendor": "DataDog",
+    "id": "DataDog",
+    "url": "/Images/datadog-icon.png"
+  },
+  {
+    "name": "Application Management",
+    "vendor": "HashiCorp",
+    "id": "HashiCorp",
+    "url": "/Images/hashicorp-icon.png"
+  }
+]

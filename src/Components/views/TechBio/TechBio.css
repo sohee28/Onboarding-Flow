@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+
+/* The Left side of TechBio page */
+.TechBio_Left_Container {
+  margin: auto;
+  height: 95%;
+  width: 68%;
+  display: flex;
+  flex-direction: column;
+  animation: fadeRight 0.8s forwards;
+  animation-delay: 0.3s;
+  opacity: 0;
+}
+
+.TechBio_Left_TitleArea {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.TechBio_Left_Title {
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+
+.TechBio_Left_SubTitle {
+  font-size: 12px;
+  line-height: 1.6;
+}
+.TechBio_Left_MainArea {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+}
+
+.textarea_counter {
+  resize: none;
+  padding: 1rem;
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+.counter {
+  align-self: flex-end;
+  color: #00a0ff;
+}
+
+/* The Right side of TechBio page */
+.TechBio_Right_Container {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  animation: fadeLeft 0.8s forwards;
+  animation-delay: 0.3s;
+  opacity: 0;
+}
+.reactswipe_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  width: 73%;
+}
+.reactswipe_btn button {
+  border: none;
+  background-color: rgba(235, 248, 255, 0.4);
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.TechBio_preview {
+  border: 1px solid rgba(220, 224, 224, 1);
+  padding: 1.3rem;
+  height: 85%;
+  width: 73%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: white;
+  border-radius: 5px;
+}
+.TechBio_preview_title {
+  border-bottom: 1px solid rgba(220, 224, 224, 1);
+  padding: 1rem;
+  font-size: 12px;
+}
+
+.TechBio_preview_1 {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  gap: 1rem;
+  padding: 1rem 0rem;
+}
+
+.TechBio_preview1_left img {
+  height: 75px;
+  width: auto;
+}
+
+.TechBio_Rate img {
+  height: 12px;
+  width: auto;
+  margin-right: 0.2rem;
+}
+
+.TechBio_preview1_right {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  gap: 0.4rem;
+}
+
+.TechBio_preview1_name {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(0, 140, 245, 1);
+  height: 100%;
+}
+
+.TechBio_preview1_jobtitle,
+.TechBio_Rate {
+  font-size: 10px;
+}
+
+.TechBio_preview1_companysize,
+.TechBio_preview1_location {
+  font-size: 9px;
+  color: #646465;
+  display: flex;
+  justify-content: center;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.TechBio_preview1_Detail {
+  font-size: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.TechBio_preview1_Detail img {
+  height: 12px;
+  width: auto;
+  margin-right: 0.2rem;
+}
+.TechBio_preview_2 {
+  height: 100%;
+  font-size: 11px;
+  color: #222222;
+  line-height: 24px;
+  padding: 1rem 2rem;
+}
+@media only screen and (min-width: 1370px) {
+  .TechBio_Right_Container {
+    margin-top: 6rem;
+  }
+  .TechBio_Left_SubTitle {
+    font-size: 13px;
+  }
+  .TechBio_Left_Title {
+    margin-top: 50px;
+  }
+  .TechBio_preview {
+    height: auto;
+    width: 420px;
+  }
+  .reactswipe_btn {
+    width: 420px;
+    margin-top: 1rem;
+  }
+  .TechBio_preview1_left img {
+    height: 100px;
+  }
+
+  .TechBio_preview1_name {
+    font-size: 13px;
+  }
+
+  .TechBio_preview1_jobtitle {
+    font-size: 11px;
+  }
+
+  .TechBio_preview1_companysize,
+  .TechBio_preview1_location {
+    font-size: 11px;
+  }
+
+  .TechBio_preview1_Detail img {
+    height: 14px;
+  }
+  .TechBio_preview_2,
+  .TechBio_preview_3 {
+    margin: 1rem 0rem;
+  }
+  .TechBio_preview4_colorbox {
+    padding: 2.5rem 0rem;
+  }
+}
+@keyframes fadeLeft {
+  0% {
+    transform: translateX(4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeRight {
+  0% {
+    transform: translateX(-4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

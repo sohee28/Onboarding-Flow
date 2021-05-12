@@ -1,0 +1,144 @@
+/* The Left side of Cloud page */
+.Cloud_Left_Container {
+  margin: auto;
+  height: 95%;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  animation: fadeRight 0.8s forwards;
+  animation-delay: 0.3s;
+  opacity: 0;
+}
+
+.Cloud_Left_Title {
+  font-size: 18px;
+  margin-bottom: 1.5rem;
+}
+
+.Cloud_Left_Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 40%;
+}
+
+.Cloud_Left_Main label {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.Cloud_Left_Main input[type="radio"] {
+  width: 17px;
+  height: 17px;
+}
+
+.Cloud_Left_Main input {
+  margin-right: 1rem;
+}
+
+.Cloud_Left_Main img {
+  height: 30px;
+  width: auto;
+}
+
+/* The Right side of Cloud page */
+.Cloud_Right_Container {
+  margin-top: 3rem;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgba(220, 224, 224, 1);
+  padding: 0.8rem 1.5rem;
+  animation: fadeLeft 0.8s forwards;
+  animation-delay: 0.3s;
+  opacity: 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Cloud_Right_Container img {
+  width: 30px;
+  height: auto;
+}
+
+.Cloud_Right_parafirst {
+  font-size: 13px;
+  color: #767676;
+}
+
+.Cloud_Right_parasecond {
+  font-size: 11px;
+  line-height: 1.4;
+  color: #767676;
+}
+
+.Cloud_Right_parasecond span {
+  color: #00a0ff;
+}
+
+.awsarea,
+.googleCloudArea,
+.azureArea {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.extra {
+  animation: fadeRight 0.8s forwards;
+  animation-delay: 0.3s;
+  opacity: 0;
+  margin-top: 1rem;
+}
+
+.awsarea input,
+.googleCloudArea input,
+.azureArea input {
+  padding: 0.3rem;
+  width: 70px;
+  border: 1px solid rgba(220, 224, 224, 1);
+  outline: none;
+  border-radius: 5px;
+}
+.awsarea button,
+.googleCloudArea button,
+.azureArea button {
+  padding: 0.3rem;
+  border: 1px solid rgba(220, 224, 224, 1);
+  background-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 1370px) {
+  .Cloud_Left_Title {
+    margin-top: 50px;
+  }
+  .Cloud_Right_Container {
+    margin-top: 6rem;
+  }
+}
+@keyframes fadeLeft {
+  0% {
+    transform: translateX(4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeRight {
+  0% {
+    transform: translateX(-4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

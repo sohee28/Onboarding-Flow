@@ -1,0 +1,220 @@
+/* The Left side of Availability page */
+.Availability_Left_Container {
+  margin: auto;
+  position: relative;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  animation: fadeDown 0.8s forwards;
+  animation-delay: 0.3s;
+  opacity: 0;
+  margin-bottom: 1rem;
+}
+
+.Availability_Left_TitleArea {
+  display: flex;
+  flex-direction: column;
+}
+
+.Availability_Left_Title {
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+.Availability_Left_SubTitle {
+  font-size: 12px;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+.Availability_Timezone {
+  font-size: 12px;
+  width: 70%;
+}
+
+.Availability_mainarea {
+  margin-top: 2rem;
+}
+
+/*AvailabilityZone File*/
+
+.AvailabilityZone {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.AvailabilityZone_Title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.AvailabilityZone_Title button {
+  font-size: 12px;
+  color: gray;
+  font-weight: 600;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  border-bottom: 2px solid gray;
+  padding: 0.2rem 0rem;
+}
+.AvailabilityZone_Title button:hover {
+  border-bottom: 2px solid black;
+  color: black;
+}
+
+/*AvailableZone File */
+
+.AvailableZone {
+  padding: 1rem 0rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  margin: auto;
+  margin-top: 1rem;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  animation: fadeUp 0.8s forwards;
+  animation-delay: 0.3s;
+  opacity: 0;
+}
+.available_sub {
+  border: 1px solid rgba(220, 224, 224, 1);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 13px;
+}
+
+.react-switch {
+  font-size: 10px;
+}
+
+.available_detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.available_time_selection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid rgba(220, 224, 224, 1);
+  padding: 1rem 0rem;
+  margin: 1rem 0rem;
+  animation: fadeUp 0.8s forwards;
+  opacity: 0;
+}
+
+.available_time_selection button {
+  border: none;
+  background-color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.addhourbtn {
+  width: 100%;
+  border: none;
+  background-color: white;
+  font-size: 12px;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  color: #484848;
+}
+
+.addhourbtn:hover {
+  color: black;
+}
+
+/*UnavailableZone */
+
+.AvailabilityZone_mainArea2 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(220, 224, 224, 1);
+  font-size: 14px;
+  margin-top: 2rem;
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 90%;
+  animation: fadeUp 0.8s forwards;
+  animation-delay: 0.3s;
+  opacity: 0;
+}
+
+.unavilableZone {
+  padding: 1rem 0rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.InputFromTo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.InputFromTo p {
+  margin: 0rem 0.5rem;
+}
+
+.unavailable_btn {
+  margin-top: 1.5rem;
+  padding: 0.3rem 0.4rem;
+  background-color: white;
+  border: 1px solid rgba(220, 224, 224, 1);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.unavailable_btn:hover {
+  background-color: rgb(235, 235, 235);
+}
+.unavailable_display {
+  border-top: 1px solid rgba(220, 224, 224, 1);
+  padding: 2rem 0rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.unavailable_display_result {
+  padding: 0.5rem;
+  text-align: center;
+  animation: fadeUp 0.8s forwards;
+  animation-delay: 0.3s;
+  opacity: 0;
+}
+
+@media only screen and (min-width: 1370px) {
+  .AvailableZone {
+    width: 80%;
+  }
+
+  .Availability_Left_TitleArea {
+    padding-top: 50px;
+  }
+  .AvailabilityZone {
+    margin-bottom: 2.5rem;
+  }
+  .AvailabilityZone_mainArea2 {
+    margin-bottom: 9.5rem;
+  }
+}
+
+@keyframes fadeUp {
+  0% {
+    transform: translateY(-2rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

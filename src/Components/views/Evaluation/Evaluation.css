@@ -1,0 +1,266 @@
+/* The Left side of Evaluation page */
+.Evaluation_Left_Container {
+  margin: auto;
+  height: 95%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  animation: fadeRight 0.8s forwards;
+  animation-delay: 0.3s;
+  opacity: 0;
+}
+
+.Evaluation_Left_TitleArea {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.Evaluation_Left_Title {
+  font-size: 18px;
+  margin-bottom: 1.5rem;
+  margin-right: 0.5rem;
+  color: #484848;
+}
+
+.Evaluation_Left_SubTitle {
+  font-size: 12px;
+  color: #484848;
+}
+
+.Evaluation_Left_Addproduct {
+  width: 100%;
+  background-color: white;
+  border: 1px solid black;
+  margin: 0rem auto;
+  padding: 1.5rem 0rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.Evaluation_Addproduct_btn {
+  font-size: 12px;
+  padding: 1rem 0rem;
+}
+
+.evaluation_newform {
+  display: flex;
+  flex-direction: column;
+}
+
+.evaluation_select_product,
+.evaluation_other_product,
+.evaluation_date {
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.select_product_title {
+  width: 50%;
+}
+.basic-select {
+  width: 200px;
+  padding: 0.2rem;
+  margin-left: 1rem;
+}
+.evaluation_date_calendar {
+  width: 197px;
+  border-radius: 5px;
+  border: 1px solid rgba(220, 224, 224, 1);
+  padding: 0.5rem;
+  font-size: 12px;
+  color: gray;
+}
+
+.evaluation_role {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.evaluation_role_selection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.evaluation_role_selection input {
+  margin-right: 1rem;
+}
+
+.evaluation_purpose {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.evaluation_textarea {
+  resize: none;
+  padding: 1rem;
+  background: #ffffff;
+  border: 1px solid rgba(220, 224, 224, 1);
+  border-radius: 4px;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  margin-top: 10px;
+}
+.evaluation_save {
+  margin: auto;
+}
+
+.evaluation_save button {
+  color: black;
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid rgba(220, 224, 224, 1);
+  cursor: pointer;
+}
+
+.evaluation_save button:hover {
+  background-color: rgb(214, 214, 214);
+  border: 1px solid rgb(214, 214, 214);
+  cursor: pointer;
+}
+/* The Right side of Evaluation page */
+.Evaluation_Right_Container {
+  margin-top: 3rem;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: white;
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+  border: 1px solid rgba(220, 224, 224, 1);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  animation: fadeLeft 0.8s forwards;
+  animation-delay: 0.3s;
+  opacity: 0;
+}
+
+.Evaluation_Right_Container2 {
+  margin-top: 3rem;
+  height: 400px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+  animation: fadeLeft 0.8s forwards;
+  animation-delay: 0.3s;
+  opacity: 0;
+}
+
+.Evaluation_Right_Card button {
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  background-color: white;
+}
+
+.Evaluation_Right_Card {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgba(220, 224, 224, 1);
+  background-color: white;
+  padding: 1rem 0.6rem;
+  border-radius: 5px;
+  justify-content: center;
+  font-size: 12px;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  justify-content: space-between;
+}
+.Evaluation_Right_Container img {
+  width: 35px;
+  height: auto;
+}
+
+.Evaluation_Right_parasecond {
+  font-size: 11px;
+  line-height: 1.5;
+  color: #767676;
+}
+
+.Evaluation_Right_parafirst {
+  font-size: 13px;
+  color: #767676;
+}
+
+@media only screen and (min-width: 1370px) {
+  .Evaluation_Left_Container {
+    width: 60%;
+  }
+  .evaluation_select_product,
+  .evaluation_other_product,
+  .evaluation_date {
+    margin-top: 15px;
+    font-size: 13px;
+  }
+  .evaluation_role {
+    margin: 40px 0 30px 0;
+    font-size: 13px;
+  }
+  .Evaluation_Left_TitleArea {
+    font-size: 13px;
+    margin-bottom: 3rem;
+  }
+
+  .evaluation_purpose {
+    font-size: 13px;
+  }
+  .Evaluation_Right_parasecond {
+    font-size: 12px;
+  }
+  .Evaluation_Right_Container {
+    margin-top: 6rem;
+  }
+  .Evaluation_Addproduct_btn {
+    padding: 3rem 0rem;
+  }
+  .Evaluation_Left_Title {
+    padding-top: 50px;
+  }
+  .Evaluation_Right_Container2 {
+    margin-top: 6rem;
+  }
+  .evaluation_save button {
+    margin-top: 3rem;
+  }
+  .Evaluation_Right_Card {
+    padding: 1rem 2.5rem;
+    font-size: 13px;
+  }
+  .Evaluation_Right_Container2 {
+    width: 400px;
+  }
+}
+
+@keyframes fadeLeft {
+  0% {
+    transform: translateX(4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeRight {
+  0% {
+    transform: translateX(-4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

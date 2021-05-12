@@ -1,0 +1,30 @@
+/*Whole Page*/
+.Whole_Layout3 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Container3 {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+}
+
+/* The Left side of  Basic Layout  */
+.Left3 {
+  width: 55vw;
+  height: auto;
+  padding: 3.5rem;
+}
+
+/* The Right side of Basic Layout */
+.Right3 {
+  width: 45vw;
+  background-color: rgba(235, 248, 255, 0.4);
+  padding: 2rem;
+}
+
+/* Window size for Desktop / Monitor*/
+@media only screen and (min-width: 1370px) {
+}

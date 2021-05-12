@@ -1,0 +1,54 @@
+[
+  {
+    "label": "Circle CI",
+    "value": "Circle CI"
+  },
+  {
+    "label": "Nagios XI",
+    "value": "Nagios XI"
+  },
+  {
+    "label": "LogicMonitor",
+    "value": "LogicMonitor"
+  },
+  {
+    "label": "ntopng",
+    "value": "ntopng"
+  },
+  {
+    "label": "SolarWinds",
+    "value": "SolarWinds"
+  },
+  {
+    "label": "Observium",
+    "value": "Observium"
+  },
+  {
+    "label": "Zabbix",
+    "value": "Zabbix"
+  },
+  {
+    "label": "Google Cloud Platform",
+    "value": "Google Cloud Platform"
+  },
+  {
+    "label": "Wireshark",
+    "value": "Wireshark"
+  },
+  {
+    "label": "CloudFlare",
+    "value": "CloudFlare"
+  },
+  {
+    "label": "AWS",
+    "value": "AWS"
+  },
+  {
+    "label": "DataDog",
+    "value": "DataDog"
+  },
+  {
+    "label": "HashiCorp",
+    "value": "HashiCorp"
+  }
+]
